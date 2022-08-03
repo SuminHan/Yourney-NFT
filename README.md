@@ -1,7 +1,7 @@
 # Yourney
 Life is a journey, not a destination.
 
-https://event.techstars.com/event/yhvLHFdKlM
+Participated in [Busan Startup Weekend](https://event.techstars.com/event/yhvLHFdKlM)
 
 ## Idea 
 
@@ -25,7 +25,7 @@ Get your personalized character NFT based on your MBTI result!
 <img src="teammbti.png" width="50%">
 
 
-- Sally (Business) [Instagram](planet.sally)
+- Sally (Business) 
 - Lyvie (Business)
 - Chris (Designer) [Linkedin](https://www.linkedin.com/in/cristopherbarrientos/) 
 - Sumin (Developer) [Linkedin](www.linkedin.com/in/sumin-han-cs)
