@@ -1,0 +1,48 @@
+{
+  "image": "481.png",
+  "name": "NEY #481",
+  "description": "",
+  "external_url": "",
+  "seller_fee_basis_points": "",
+  "collection": {
+    "name": "NEY",
+    "family": "YOURNEY"
+  },
+  "properties": {
+    "files": [
+      {
+        "uri": "481.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "share": 100,
+        "address": "JCwT5Ygmq3VeBEbDjL8s8E82Ra2rP9bq45QfZE7Xyaq7"
+      }
+    ]
+  },
+  "attributes": [
+    {
+      "trait_type": "C",
+      "value": "C2"
+    },
+    {
+      "trait_type": "B",
+      "value": "B4"
+    },
+    {
+      "trait_type": "D",
+      "value": "D4"
+    },
+    {
+      "trait_type": "E",
+      "value": "E1"
+    },
+    {
+      "trait_type": "A",
+      "value": "A2"
+    }
+  ],
+  "compiler": "nft-inator.com"
+}

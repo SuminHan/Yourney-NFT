@@ -1,0 +1,10 @@
+extends layout
+
+block content 
+
+  p owners of each image
+  ul
+    each val in collections
+      li(style='padding-bottom:5px;')
+        img(src='/nftassets/renamed/' + val.imgurl, width='100px', height='100px')
+        label(style='padding-left:5px;')="Owner: " + val.owner

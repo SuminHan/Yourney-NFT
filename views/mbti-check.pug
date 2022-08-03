@@ -1,0 +1,49 @@
+extends layout
+
+block content
+  h1="MBTI Result"
+  p Give us your MBTI result.
+  
+  div.col-12
+    form(action='/mbti-user-input', method='POST')
+    
+      .row
+        //label#num-label1.col-sm-12.text-center 50%
+        label.text-center.col-sm-3.col-form-label Introversion (I)
+        .col-sm-6
+          input#range1.form-range(type='range', min='0', max='10', value='5')
+        label.text-center.col-sm-3.col-form-label Extraversion (E)
+      br
+
+      .row
+        //label#num-label2.col-sm-12.text-center 50%
+        label.text-center.col-sm-3.col-form-label Sensing (S)
+        .col-sm-6
+          input#range2.form-range(type='range', min='0', max='10', value='5')
+        label.text-center.col-sm-3.col-form-label Intuition (N)
+      br
+
+      .row
+        //label#num-label3.col-sm-12.text-center 50%
+        label.text-center.col-sm-3.col-form-label Feeling (F)
+        .col-sm-6
+          input#range3.form-range(type='range', min='0', max='10', value='5')
+        label.text-center.col-sm-3.col-form-label Thinking (T)
+      br
+
+      .row
+        //label#num-label4.col-sm-12.text-center 50%
+        label.text-center.col-sm-3.col-form-label Judging (J)
+        .col-sm-6
+          input#range4.form-range(type='range', min='0', max='10', value='5')
+        label.text-center.col-sm-3.col-form-label Perceiving (P)
+
+
+
+
+
+      button.btn.btn-primary(type='submit') Submit
+
+
+
+  script(src='/javascripts/mbti-result.js')

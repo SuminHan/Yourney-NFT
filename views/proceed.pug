@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  div.col-6
+    form(action='/proceed-mbti', method='POST')
+      .mb-3
+        label.form-label(for='username') 
+          b Username
+        input#inputName.form-control(name='username', type='text')
+
+      .mb-3
+        p We need your MBTI test result to analyze your
+          | characteristic to generate the best profile picture that represents you. 
+      
+      button.btn.btn-primary(type='submit') Proceed 
+      a.btn.btn-warning(href="/nft-collections", style='margin-left:10px;') NFT collections

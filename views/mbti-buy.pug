@@ -1,0 +1,22 @@
+extends layout
+
+block content 
+
+  p=username +"\'s MBTI profile"
+  
+  img(src=imgsrc, width='300px', height='300px')
+
+  p="Current owner of this image: " + current_owner
+
+  button#btn-buy.btn.btn-info="Buy this NFT"
+  a.btn.btn-warning(href="/nft-collections", style='margin-left:10px;') NFT collections
+  
+
+  div(hidden) 
+    label#username #{username}
+    label#imgsrc #{imgsrc}
+    label#imgurl #{imgurl}
+    label#current_owner #{current_owner}
+
+
+  script(src='/javascripts/mbti-buy.js')
